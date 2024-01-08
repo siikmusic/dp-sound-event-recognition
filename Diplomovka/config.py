@@ -1,0 +1,12 @@
+input_shape = (64, 64, 1) 
+num_classes = 10
+num_conv_layers = 2
+num_filters = [32, 64]
+filter_size = [3, 3]
+num_dense_layers = 4
+num_dense_units = [512, 512, 256, 256]
+activation='relu'
+optimizer = 'adam' 
+learning_rate = 0.001
+dropout_rate_conv = 0
+dropout_rate_dense = 0
